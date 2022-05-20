@@ -143,7 +143,7 @@ elif page == "Predicting Response":
 
 
     #load pickle
-    load_clf = pickle.load(open('/Users/janaaloud/Desktop/response_clf.pkl', 'rb'))
+    load_clf = pickle.load(open('https://raw.githubusercontent.com/JanaEO/Streamlit2/main/response_clf.pkl', 'rb'))
 
     #Model prediction
     prediction = load_clf.predict(df)
