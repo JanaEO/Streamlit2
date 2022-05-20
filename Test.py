@@ -104,7 +104,7 @@ elif page == "Predicting Response":
 
 
 #data import, cleaning, and encoding
-    response_raw = pd.read_csv('/Users/janaaloud/Desktop/Marketing Campaign Data1.csv')
+    response_raw = pd.read_csv('https://raw.githubusercontent.com/JanaEO/Streamlit2/main/Marketing%20Campaign%20Data1.csv')
 
     response_raw.fillna(0, inplace=True)
 
